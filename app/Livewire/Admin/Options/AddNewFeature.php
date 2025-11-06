@@ -1,0 +1,33 @@
+<?php
+
+namespace App\Livewire\Admin\Options;
+
+use Livewire\Component;
+
+class AddNewFeature extends Component
+{
+    public $option;
+    public $newFeature = [
+        'value' => '',
+        'description' => '',
+    ];
+
+    public function addFeature()
+    {
+        $this->validate([
+            'newFeature.value' => 'required',
+            'newFeature.description' => 'required',
+        ]);
+
+        $this->option->features()->create($this->newFeature);
+
+        $this->dispatch('featureAdded'); //se emite el evento 'featureAdded' que sera escuchado por el componente padre MANAGEOPTIONS en la funcion updateOptionList()
+
+        $this->reset('newFeature');
+    }
+
+    public function render()
+    {
+        return view('livewire.admin.options.add-new-feature');
+    }
+}
