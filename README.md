@@ -7,6 +7,7 @@ El proyecto consiste en el desarrollo de una tienda online diseñada para la com
 - Backend: PHP con Laravel y Livewire para la actualización dinámica de componentes.<br>
 - Base de Datos: MySQL gestionada con Migraciones, Seeders y Factories.<br>
 - Arquitectura: Modelo - Vista - Controlador (MVC)
+- Integraciones: Jetstream, Laravel permission, dompdf, sweetalert2, swipperjs, sortablejs, smtp.gmail, hardevine/shoppingcart, mercagopago, niubiz y otros.
 
 <img width="1901" height="908" alt="image" src="https://github.com/user-attachments/assets/8529a039-13eb-4915-bc77-6cb99f88f6d3" />
 
