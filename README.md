@@ -1,4 +1,4 @@
-# Kong Store: Tienda Online de Indumentaria y Equipamiento Policial (Aún en Desarrollo)
+# Kong Store: Tienda Online de Indumentaria y Equipamiento Policial
 
 El proyecto consiste en el desarrollo de una tienda online diseñada para la comercialización de indumentaria y equipamiento policial. La solución combina tecnologías modernas para garantizar una experiencia de usuario intuitiva, segura y funcional, tanto para los compradores como para los administradores del sistema
 
