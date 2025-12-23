@@ -11,7 +11,7 @@ Base de Datos: MySQL gestionada con Migraciones, Seeders y Factories.<br>
 
 Arquitectura: Modelo - Vista - Controlador (MVC)
 
-Integraciones: Jetstream, Laravel permission, dompdf, sweetalert2, swiperjs, sortablejs, smtp.gmail, hardevine/shoppingcart, mercagopago, niubiz y otros.
+Integraciones: Jetstream, Laravel permission, dompdf, laravel-excel, sweetalert2, swiperjs, sortablejs, smtp.gmail, hardevine/shoppingcart, mercagopago, niubiz y otros.
 
 <img width="1901" height="908" alt="image" src="https://github.com/user-attachments/assets/8529a039-13eb-4915-bc77-6cb99f88f6d3" />
 
@@ -93,15 +93,14 @@ Funcionalidades principales:
 
 <img width="1896" height="840" alt="image" src="https://github.com/user-attachments/assets/7c8fd10e-b270-4120-bf38-c77550075372" />
 
-•	Generación de Reportes Personalizados: Los administradores pueden filtrar y ordenar datos de usuarios, productos y ventas para generar reportes PDF. Los filtros incluyen campos específicos, criterios de ordenación y límites de registros.
+•	Generación de Reportes Personalizados: Los administradores pueden seleccionar campos, filtrar y ordenar datos de usuarios, productos y ventas para generar reportes PDF y EXCEL:
 
-![Imagen de WhatsApp 2025-12-06 a las 13 43 00_f4d2841c](https://github.com/user-attachments/assets/d937f3ce-91b7-48d7-97f1-8f6bfad4d6f4)
-![Imagen de WhatsApp 2025-12-06 a las 13 48 59_a5480b57](https://github.com/user-attachments/assets/dd9f1a97-9582-4f16-befd-2e663aa8ae11)
-![Imagen de WhatsApp 2025-12-06 a las 13 47 46_3a105a8e](https://github.com/user-attachments/assets/2d9cf9f2-c74d-4af3-b0ab-60cc44b24a01)
+<img width="922" height="1963" alt="image" src="https://github.com/user-attachments/assets/3ec78a52-236e-4674-b6e1-7f9ac29e3552" />
 
 •	Estadísticas: Se incluye un panel de estadísticas que muestra gráficos y resúmenes relacionados con: Número de usuarios registrados, Productos en inventario, Cantidad de ventas, Ingresos por ventas, etc:
 
-![Imagen de WhatsApp 2025-12-06 a las 13 49 33_c12fb93f](https://github.com/user-attachments/assets/5e56c8aa-29f2-4cc5-b13b-6e26121cb4fe)
+<img width="1351" height="651" alt="image" src="https://github.com/user-attachments/assets/b8ba2554-41b7-4d52-a795-d4cb73bfd8be" />
+
 ![Imagen de WhatsApp 2025-12-06 a las 13 49 54_9901f755](https://github.com/user-attachments/assets/5e49bb04-c752-47c7-b5e8-27fa311e9c35)
 ![Imagen de WhatsApp 2025-12-06 a las 13 50 21_2c6460ae](https://github.com/user-attachments/assets/e44d2e1f-fed6-417a-bf24-c111b88db0bc)
 
